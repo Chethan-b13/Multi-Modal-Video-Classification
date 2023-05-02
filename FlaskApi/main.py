@@ -52,7 +52,7 @@ def scrape():
     if request.method == "POST":
         data = request.json
         try:
-            scrape_videos(data['class'],data['numberofvideos'])
+            scrape_videos(data['class'],int(data['numberofvideos']))
             return jsonify(f"Successfully Scraped {data['numberofvideos']}")
         except Exception as e:
             print(e)

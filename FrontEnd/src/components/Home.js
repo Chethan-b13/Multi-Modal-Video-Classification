@@ -78,8 +78,8 @@ const Home = () => {
                 onClick={predict}
                 >Predict
               </Button>
-              <Button variant="contained"
-                component="label"><Link to={'/compress'} style={{color:'white'}} >Compress a Video</Link></Button>
+              {/* <Button variant="contained"
+                component="label"><Link to={'/compress'} style={{color:'white'}} >Compress a Video</Link></Button> */}
             </div>
           </Box>
           <Stack

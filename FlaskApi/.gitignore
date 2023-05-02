@@ -2,3 +2,4 @@ Saved_models/
 test_videos/*.mp4
 test_videos/*.avi
 ScrapedData/*
+temp/*

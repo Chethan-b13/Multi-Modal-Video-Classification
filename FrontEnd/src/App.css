@@ -69,3 +69,22 @@
     transform: rotate(0deg);
   }
 }
+
+.navButton{
+  margin-left: 3rem;
+  border: none;
+  padding: 5px;
+  color: white;
+  background: #1976d2;
+  border-radius: 2px;
+}
+
+.inputArea{
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  font-weight: 700;
+  font-size: 15px;
+}

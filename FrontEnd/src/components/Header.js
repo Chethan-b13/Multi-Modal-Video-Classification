@@ -33,6 +33,8 @@ const Header = () => {
             <Typography variant="h5" color="#fff">
               Video <span className={classes.span}>C</span>lassifier
             </Typography>
+              <button className="navButton"><Link to={'/createdataset'} style={{color:'white'}} >Create Dataset</Link></button>
+              <button className="navButton"><Link to={'/compress'} style={{color:'white'}} >Compress a Video</Link></button>
           </Toolbar>
         </Link>
       </AppBar>
