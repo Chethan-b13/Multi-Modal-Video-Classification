@@ -2,6 +2,21 @@
   background-color: #1f1d1d;
 }  */
 
+.MuiBox-root,.MuiStack-root,.Container{
+  position: relative;
+  background-image: url('https://wallpaperaccess.com/full/1398439.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MuiPaper-root,.MuiToolbar-root{
+  background: #141414;
+}
+
+video{
+  border-radius: 2rem;
+}
+
 .buttons{
   display: flex;
   gap: 1rem;
@@ -73,10 +88,16 @@
 .navButton{
   margin-left: 3rem;
   border: none;
-  padding: 5px;
+  padding: 10px;
   color: white;
-  background: #1976d2;
-  border-radius: 2px;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+}
+
+.navButton:hover{
+  background: #2880d7;
 }
 
 .inputArea{
@@ -88,3 +109,5 @@
   font-weight: 700;
   font-size: 15px;
 }
+
+

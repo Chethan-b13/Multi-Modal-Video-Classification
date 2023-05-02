@@ -58,8 +58,8 @@ const Home = () => {
           >
             <ReactPlayer
               url={enteredUrl}
-              width="60vw"
-              height="60vh"
+              width="50vw"
+              height="40vh"
               controls
             ></ReactPlayer>
             <div className="buttons">

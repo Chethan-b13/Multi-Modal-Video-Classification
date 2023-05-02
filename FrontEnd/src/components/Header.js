@@ -8,7 +8,7 @@ const Header = () => {
     <Paper
       elevation={4}
       sx={{
-        backgroundColor: "#111",
+        backgroundColor: "#141414",
         position: "sticky",
         top: "0",
         height: "86px",
