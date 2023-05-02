@@ -58,7 +58,7 @@ const Home = () => {
           >
             <ReactPlayer
               url={enteredUrl}
-              width="50vw"
+              width="40vw"
               height="40vh"
               controls
             ></ReactPlayer>

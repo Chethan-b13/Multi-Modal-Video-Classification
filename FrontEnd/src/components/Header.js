@@ -11,7 +11,7 @@ const Header = () => {
         backgroundColor: "#141414",
         position: "sticky",
         top: "0",
-        height: "86px",
+        height: "64px",
       }}
     >
       <AppBar
